@@ -107,14 +107,14 @@ void numberInsert(int value){
 }
 
 
-int countNumberOfNodes(){
+void displayNodes(){
     struct node *temp = head;
     int count = 0;
     while(temp != NULL){
-        count ++;
+        cout<< temp -> num <<endl;
         temp = temp -> next;
     }
-    return count;
+    
 }
 
 
@@ -125,7 +125,6 @@ int main()
         int x;cin>>x;
         numberInsert(x);
     }
-    int count = countNumberOfNodes();
-    cout<<"Total Number of Nodes "<<count<<endl;
+    displayNodes();
     return 0;
 }
