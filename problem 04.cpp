@@ -54,7 +54,7 @@ typedef pair<ll, ll> pl;
 typedef vector<int> vi;
 typedef vector<pl> vpi;
 typedef vector<pl> vpl;
-// typedef tree<pair<ll, int> , null_type, less<pair<ll, int> >, rb_tree_tag, tree_order_statistics_node_update> ost;
+// typedef tree<pair<ll, int> , nnull_type, less<pair<ll, int> >, rb_tree_tag, tree_order_statistics_node_update> ost;
 /// Bit manipulation
 
 bool checkbit(ll mask, ll bit) { return mask & (1ll << bit); }
